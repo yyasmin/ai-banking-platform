@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionService", "TransactionService\TransactionService.csproj", "{AB8B6041-C841-4275-B1E4-BFEEDA133C77}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TransactionService", "TransactionService", "{A9CC8E29-F814-457B-83DC-33BB3FB2AD26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIFraudAnalysisService", "AIFraudAnalysisService\AIFraudAnalysisService.csproj", "{C72E2DF8-F0B9-4D7C-8E88-90EF6437EEC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,12 @@ Global
 		{AB8B6041-C841-4275-B1E4-BFEEDA133C77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB8B6041-C841-4275-B1E4-BFEEDA133C77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB8B6041-C841-4275-B1E4-BFEEDA133C77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C72E2DF8-F0B9-4D7C-8E88-90EF6437EEC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C72E2DF8-F0B9-4D7C-8E88-90EF6437EEC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C72E2DF8-F0B9-4D7C-8E88-90EF6437EEC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C72E2DF8-F0B9-4D7C-8E88-90EF6437EEC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AB8B6041-C841-4275-B1E4-BFEEDA133C77} = {A9CC8E29-F814-457B-83DC-33BB3FB2AD26}
 	EndGlobalSection
 EndGlobal
